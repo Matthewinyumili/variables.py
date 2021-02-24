@@ -1,0 +1,49 @@
+#Decision making in Python
+
+a=74
+if a>10:
+    print("Correct")
+else:
+    print("Wrong")
+    
+#Checking if number is even or odd.
+
+b = 8
+if b%2==0:
+    print("Even")
+else:
+    print("Odd")
+
+#Allowing the user to input data
+print("Enter a number")
+No=int(input())
+if No%2==0:
+    print("Even")
+else:
+    print("Odd")
+    
+#Grading System.
+print("Enter yor grade marks.")
+Math=int(input("Enter Math-"))
+Eng=int(input("Enter Eng-"))
+Elec=int(input("Enter Elec-"))
+Phy=int(input("Enter Phy-"))
+His=int(input("Enter His-"))
+sum=(Math+Eng+Elec+Phy+His)
+print("Total is" and sum)
+avg=sum//5
+print(avg)
+
+if grade >=70 and grade <=100:
+    print("A")
+if grade >=60 and grade <=69:
+    print("B")
+if grade >=50 and grade <=59:
+    print("C")
+if grade >=40 and grade <=49:
+    print("D")
+if grade >=0 and grade <=39:
+    print("E")
+if grade <0 and grade >100:
+    print("Error.")
+   
